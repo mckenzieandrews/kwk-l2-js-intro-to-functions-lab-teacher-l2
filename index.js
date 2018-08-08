@@ -5,7 +5,6 @@ function getUKTime() {
   hours = new Date().getHours() + 7
   return hours
 }
-
 function discountTicket(ogPrice) {
   newPrice = Number.parseInt(ogPrice) * 0.8
   return newPrice
